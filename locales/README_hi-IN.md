@@ -1,16 +1,16 @@
-# Awesome GPT Image 2 Prompts
+# GPT Image 2 Prompts — हिन्दी
 
-Curated GPT Image 2 prompt templates and category metadata for building image-generation workflows, prompt navigation, case search, and agent skills.
+[English](../README.md)
 
-Translations: [简体中文](locales/README_zh.md) · [繁體中文](locales/README_zh-TW.md) · [日本語](locales/README_ja-JP.md) · [한국어](locales/README_ko-KR.md) · [ไทย](locales/README_th-TH.md) · [Tiếng Việt](locales/README_vi-VN.md) · [हिन्दी](locales/README_hi-IN.md) · [Español](locales/README_es-ES.md) · [Español (Latinoamérica)](locales/README_es-419.md) · [Deutsch](locales/README_de-DE.md) · [Français](locales/README_fr-FR.md) · [Italiano](locales/README_it-IT.md) · [Português (Brasil)](locales/README_pt-BR.md) · [Português](locales/README_pt-PT.md) · [Türkçe](locales/README_tr-TR.md)
+यह repository GPT Image 2 prompt templates और category metadata को व्यवस्थित करती है। यह image-generation workflows, prompt navigation, case search और agent skill के लिए उपयोगी है।
 
-Primary prompt site: https://model-prompt-lab.com/models/gpt-image-2/prompts
+मुख्य prompt साइट: https://model-prompt-lab.com/models/gpt-image-2/prompts
 
-Semantic prompt search: https://model-prompt-lab.com/models/gpt-image-2/prompts?q=photography
+semantic search उदाहरण: https://model-prompt-lab.com/models/gpt-image-2/prompts?q=photography
 
-The category links below intentionally use `q=<category>` instead of the old `categories=<category>` format. The Model Prompt Lab search endpoint understands these category terms semantically and can recall matching GPT Image 2 cases accurately.
+Category links पुराने `categories=<category>` format के बजाय `q=<category>` का उपयोग करते हैं। Model Prompt Lab search category terms को semantically समझता है और संबंधित GPT Image 2 cases वापस ला सकता है।
 
-## Repository Contents
+## Repository contents
 
 - Prompt templates: 7,429
 - Source categories: 42
@@ -19,14 +19,14 @@ The category links below intentionally use `q=<category>` instead of the old `ca
 
 ## Files
 
-- `data/gpt-image-2-prompts.json`: full enriched prompt bundle with prompt text, variables, preview images, tags, input modes, references, and attribution fields.
-- `data/categories.json`: category groups, counts, semantic Model Prompt Lab search URLs, and the prompt slugs attached to each category.
-- `data/source-prompts.json`: compact source prompt index.
-- `docs/source-gallery.md`: bilingual category index for quick browsing.
-- `schema/gpt-image-2-prompt.schema.json`: JSON schema for prompt records.
-- `skills/gpt-image-2-prompts/SKILL.md`: agent skill for using this dataset in prompt-writing workflows.
+- `../data/gpt-image-2-prompts.json`: full enriched prompt bundle with prompt text, variables, preview images, tags, input modes, references, and attribution fields.
+- `../data/categories.json`: category groups, counts, semantic Model Prompt Lab search URLs, and the prompt slugs attached to each category.
+- `../data/source-prompts.json`: compact source prompt index.
+- `../docs/source-gallery.md`: bilingual category index for quick browsing.
+- `../schema/gpt-image-2-prompt.schema.json`: JSON schema for prompt records.
+- `../skills/gpt-image-2-prompts/SKILL.md`: agent skill for using this dataset in prompt-writing workflows.
 
-## Category Navigation
+## Category navigation
 
 | Group | Category | Templates | Search |
 |---|---|---:|---|
@@ -73,9 +73,9 @@ The category links below intentionally use `q=<category>` instead of the old `ca
 | Use Cases | E-commerce Main Image | 216 | [Search](https://model-prompt-lab.com/models/gpt-image-2/prompts?q=ecommerce-main-image) |
 | Use Cases | YouTube Thumbnail | 123 | [Search](https://model-prompt-lab.com/models/gpt-image-2/prompts?q=youtube-thumbnail) |
 
-## Usage Notes
+## Usage notes
 
-- Use `data/gpt-image-2-prompts.json` when you need complete prompt records.
-- Use `data/categories.json` when you need category navigation or semantic search links.
+- Use `../data/gpt-image-2-prompts.json` when you need complete prompt records.
+- Use `../data/categories.json` when you need category navigation or semantic search links.
 - Keep source case URLs and attribution fields when reusing prompts or images.
 - Prefer the Model Prompt Lab page for browsing the current GPT Image 2 prompt collection.
